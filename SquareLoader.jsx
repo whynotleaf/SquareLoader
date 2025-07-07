@@ -1,6 +1,6 @@
 import "./squareLoader.css";
 
-function SquareLoader({ color = "cyan", size = 50 ,animationtime}) {
+function SquareLoader({ color = "cyan", size = 50 ,animationTime}) {
   return (
     <div
       className="SquareLoader"
@@ -9,7 +9,7 @@ function SquareLoader({ color = "cyan", size = 50 ,animationtime}) {
         height: `${size}px`,
         border: `${size / 10}px solid ${color}`,
         borderRadius: `${size / 5}px`,
-        animationDuration:animationtime
+        animationDuration:animationTime
       }}
       >
       
